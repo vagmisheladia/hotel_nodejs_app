@@ -2,4 +2,4 @@
 
 This repo includes node microservices for hotels. 
 
-uses : restfull apis.
+uses : restfull apis
