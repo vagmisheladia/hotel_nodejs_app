@@ -4,7 +4,8 @@ const http = require('http');
 
 var data = {
     id : 1,
-    name : 'vagmi'
+    name : 'vagmi',
+    address : "WA"
 }
 
 app.get('/data',(req,res)=>{
