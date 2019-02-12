@@ -7,8 +7,9 @@ var data = {
     name : 'vagmi'
 }
 
-app.get('/',(req,res)=>{
-    res.send(data);
+app.get('/data',(req,res)=>{
+    var mapdata =req.body;
+    res.send(mapdata);
 });
 
 //create a server object:
