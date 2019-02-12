@@ -10,6 +10,7 @@ var data = {
 app.get('/data',(req,res)=>{
     var mapdata =req.body;
     res.send(mapdata);
+    res.json(data);
 });
 
 //create a server object:
